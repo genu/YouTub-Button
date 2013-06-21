@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Youtube Button",
+  "description": "Controll the youtube player",
+  "version": "1.0",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "<all_urls>", "management"
+  ],
+  "browser_action": {
+    "default_icon": "stop.png"
+  }
+}
